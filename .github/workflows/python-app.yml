@@ -28,7 +28,7 @@ jobs:
 
       - name: setup pyenv
         id: pyenv_installation
-        uses: "gabrielfalcao/pyenv-action@v7"
+        uses: "g8mr/coreai"
 
       - name: debug pyenv
         run: echo ${{ steps.pyenv_installation.outputs.pyenv_root }}
