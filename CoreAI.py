@@ -251,7 +251,6 @@ since = str("SINCE OCTOBER 2021")
 print("Hello! I am CoreAI, a very simple and user-friendly chatbot.")
 time.sleep(1)
 print()
-global name
 name = input("What can I call you as? - ")
 time.sleep(1)
 print("Nice to meet you,", name, end=".")
